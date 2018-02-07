@@ -1,0 +1,6 @@
+nginxproxy:
+  build: .
+  ports:
+   - 80:80
+  volumes:
+   - ./log/:/var/log/nginx
